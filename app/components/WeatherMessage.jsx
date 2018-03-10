@@ -12,7 +12,7 @@ var WeatherMessage = React.createClass({
 }); */
 var WeatherMessage = ({temp, location}) => {
     return (
-        <h3>It is {temp} deg in {location}.</h3>
+        <h3>It is {temp} deg celsius in {location}.</h3>
     );
 
 }

@@ -12,7 +12,7 @@ var About = (props) => {
     return (
         <div>
         <h3>About!</h3>
-        <p>Welcome to the about page!</p>
+        <p>This app is a simple weather app which provides current weather of your city. This is developed from React js.</p>
         </div>
     );
 };
