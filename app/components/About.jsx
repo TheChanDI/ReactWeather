@@ -11,7 +11,7 @@ var About = React.createClass({
 var About = (props) => {
     return (
         <div> 
-        <h1 className="text-center">About this app</h1>
+        <h1 className="text-center page-title">About this app</h1>
         <p>This app is a simple weather app which provides current weather of your city.
          This is built on React.</p>
         <p>
