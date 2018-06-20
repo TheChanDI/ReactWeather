@@ -7,11 +7,11 @@ var About = require('About');
 var Example = require('Example');
 
 // Load foundation
-require('style!css!foundation-sites/dist/foundation.min.css')
+require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
 
 //App css
-require('style!css!applicationStyles');
+require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
  <Router history={hashHistory}>
@@ -20,7 +20,7 @@ ReactDOM.render(
     <Route path="example" component={Example}/>
     <IndexRoute component={Weather}/>
   </Route>
- </Router>,
+ </Router>, 
   document.getElementById('app')
 );
  
